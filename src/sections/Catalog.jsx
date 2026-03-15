@@ -1,8 +1,8 @@
 import "../styles/catalog.css"
-import albumImg from "../assets/Album de collection digitale.png"
-import quizImg from "../assets/Quiz football.png"
-import tombolaImg from "../assets/Tombola digitale.png"
-import predictionsImg from "../assets/Pronostics.png"
+import albumImg from "../assets/album-de-collection-digitale.png"
+import quizImg from "../assets/quiz-football.png"
+import tombolaImg from "../assets/tombola-digitale.png"
+import predictionsImg from "../assets/pronostics.png"
 import { SlArrowRight } from "react-icons/sl"
 
 const CatalogItem = ({ title, description, imgSrc, star = false, soon = false }) => {
