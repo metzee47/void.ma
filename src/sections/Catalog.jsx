@@ -2,7 +2,7 @@ import "../styles/catalog.css"
 import albumImg from "../assets/album-de-collection-digitale.png"
 import quizImg from "../assets/quiz-football.png"
 import tombolaImg from "../assets/tombola-digitale.png"
-import predictionsImg from "../assets/pronostics.png"
+import predictionsImg from "../assets/predictions.png"
 import { SlArrowRight } from "react-icons/sl"
 
 const CatalogItem = ({ title, description, imgSrc, star = false, soon = false }) => {
