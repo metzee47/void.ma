@@ -1,0 +1,21 @@
+.stat-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--white);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    gap: max(15px, 1vw);
+}
+
+.stat-section .icon-wrapper {
+    background-color: transparent;
+}
+
+.stat-section .stat-item {
+    gap: max(3px, .2vw);
+}
+
+@media (max-width: 450px) {
+    .stat-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

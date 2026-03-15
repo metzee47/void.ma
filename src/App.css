@@ -1,0 +1,46 @@
+.app-container > header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.app-container > .main {
+  padding-top: 65px;
+}
+
+div.section,
+main.section,
+header.section,
+footer.section {
+    padding: max(60px, 5vw);
+}
+
+
+@media (max-width:1000px) {
+  div.section,
+  main.section,
+  header.section,
+  footer.section {
+    padding: 40px;
+  }
+}
+
+@media (max-width:740px) {
+  .app-container.menu-open > .main {
+    padding-top: 230px;
+  }
+}
+
+@media (max-width:500px) {
+  div.section,
+  main.section,
+  header.section,
+  footer.section {
+    padding: 20px;
+  }
+}
+
+@media (max-width:740px) {
+}

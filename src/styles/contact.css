@@ -1,0 +1,21 @@
+.contact-section {
+    background: linear-gradient(to bottom,#DC2626, #B01219);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: max(8px, .6vw);
+    color: var(--white);
+}
+
+.contact-section h1,
+.contact-section p {
+    text-align: center;
+}
+
+.contact-section .buttons-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: max(15px, 1vw);
+    margin-top: max(15px, 1.2vw);
+}

@@ -1,0 +1,108 @@
+/* Button */
+
+.main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: max(8px, .5vw);
+    padding: max(6px, .4vw) max(18px, 1.5vw);
+    border-radius: max(8px, .5vw);
+    font-size: max(12px, .8vw);
+    /* background: var(--main-gradient); */
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.main-btn:hover {
+    opacity: 0.8;
+    transform: scale(.98);
+}
+
+.main-btn svg {
+    width: max(11px, .7vw);
+    height: max(11px, .7vw);
+}
+
+
+
+/* Logo */
+
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: max(8px, .5vw);
+}
+
+.icon-wrapper {
+    width: max(32px, 2vw);
+    height: max(32px, 2vw);
+    border-radius: max(4px, .25vw);
+    background-color: var(--low-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrapper .icon-wrapper {
+    /* border-radius: 50%; */
+}
+
+.logo-wrapper .icon-wrapper svg {
+    color: var(--white);
+}
+
+.you-can-win {
+    display: flex;
+    font-weight: bold;
+}
+
+.you-can-win span:first-child {
+    color: var(--red);
+}
+.you-can-win span:nth-child(2) {
+    color: var(--dark-blue);
+}
+.you-can-win span:last-child {
+    color: var(--high-green);
+}
+
+.games-text {
+    margin-top: max(6px, .3vw);
+    font-size: max(7px, .4vw);
+    font-weight: 600;
+    color: var(--high-green);
+    padding: max(2px, .15vw) max(4px, .25vw);
+    border-radius: max(9px, .5vw);
+    background-color: var(--light-green);
+}
+
+
+
+/* STAT ITEM */
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: max(8px, .2vw);
+}
+
+.stat-item .icon-wrapper {
+    background-color: #F0FDF4;
+    color: var(--high-green);
+}
+
+.stat-item .icon-wrapper svg {
+    width: max(18px, 1.125vw);
+    height: max(18px, 1.125vw);
+}
+
+.stat-item h5 {
+    color: var(--black);
+}
+
+.stat-item p {
+    text-align: center;
+}
+
+

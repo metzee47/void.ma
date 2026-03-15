@@ -1,0 +1,168 @@
+.formula-section {
+    background-color: #F8FAFC;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.formula-section > header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: max(15px, 1vw);
+}
+
+
+.formula-section > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: max(60px, 5vw);
+}
+
+.formula-section > main > h1 {
+    color: var(--black);
+}
+
+
+.formulas-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: max(25px, 1.5vw);
+    margin-top: max(30px, 2vw);
+}
+
+.formula-item {
+    display: flex;
+    flex-direction: column;
+    gap: max(10px, 0.5vw);
+    padding: max(20px, 1.5vw);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: max(10px, 0.5vw);
+    background-color: var(--white);
+    position: relative;
+    transition: all .3s;
+}
+
+.formula-item:hover {
+    transform: scale(1.04);
+}
+
+.popular-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.popular-badge > span {
+    background-color: var(--red);
+    color: var(--white);
+    padding: max(2px, 0.2vw) max(10px, 0.7vw);
+    border-radius: max(10px, 0.5vw);
+    font-size: max(10px, 0.7vw);
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    transform: translateY(-50%);
+}
+
+
+.formula-item.popular {
+    box-shadow: 0 0 4px #FECACA;
+}
+
+.formula-item.unpopular {
+    box-shadow: 0 0 4px #E2E8F0;
+}
+
+
+.formula-item.popular .icon-wrapper {
+    background-color: var(--white);
+    color: var(--red);
+}
+
+.formula-item.unpopular .icon-wrapper {
+    background-color: var(--light-green);
+    color: var(--high-green);
+}
+
+.formula-item .type-name-text {
+    margin: max(10px, 0.7vw) 0;
+}
+
+.formula-item .type-name-text h6 {
+    color: var(--black);
+}
+
+
+.formula-item .type-name-text p {
+    color: var(--low-green);
+    font-weight: bold;
+    font-size: max(12px, 0.8vw);
+}
+
+.formula-item > .tarif-text {
+    padding: max(10px, 0.7vw) 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #64748B;
+    margin: max(10px, 0.7vw) 0;
+}
+
+.checked-item {
+    display: flex;
+    align-items: center;
+    gap: max(5px, 0.3vw);
+    margin: max(5px, 0.3vw) 0;
+    font-size: max(12px, 0.8vw);
+}
+
+.formula-item.popular .checked-item svg {
+    color: var(--red);
+}
+
+.formula-item.unpopular .checked-item svg {
+    color: var(--high-green);
+}
+
+.checked-item svg {
+    width: max(14px, .8vw);
+    height: max(14px, .8vw);
+}
+
+.checked-item span {
+    color: #64748B;
+}
+
+.main-btn.un-popular {
+    background: transparent;
+    color: var(--dark-blue);
+    border: 1px solid #CBD5E1;
+}
+
+.main-btn.popular {
+    background: linear-gradient(90deg, var(--red) 0%, var(--red) 100%);
+}
+
+
+@media (max-width: 850px) {
+    .formulas-items,
+    .formula-section > header
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formula-item {
+        max-width: 320px;
+    }
+    
+    .formula-section > header .stat-item {
+        max-width: 150px;
+    }
+}

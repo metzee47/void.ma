@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --main-gradient: linear-gradient(to right, #16A34A, #0B6B3A);
+  --low-green: #16A34A;
+  --high-green: #0B6B3A;
+  --light-green: #DCFCE7;
+  --red: #B01219;
+  --dark-blue: #0F172A;
+  --light-blue: #475569;
+  --m: #E2E8F0;
+  --white: #FFFFFF;
+  --low-white: rgba(255, 255, 255, 0.7);
+  --black: #000000;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--light-blue);
+  background-color: #e7e7e7;
+  font-size: max(14px, 0.875vw);
+}
+
+
+svg {
+  width: max(20px, 1.25vw);
+  height: max(20px, 1.25vw);
+  /* color: var(--high-green); */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: max(24px, 1.5vw);
+}
+
+h2 {
+  font-size: max(20px, 1.25vw);
+}
+
+h3 {
+  font-size: max(18px, 1.125vw);
+}
+
+h4 {
+  font-size: max(16px, 1vw);
+}
+
+h5 {
+  font-size: max(14px, 0.875vw);
+}
+
+h6 {
+  font-size: max(12px, 0.75vw);
+}
+
+
