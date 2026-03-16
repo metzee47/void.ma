@@ -267,4 +267,46 @@
         width: 250px;
         max-width: 250px;
     }
+
+    .absolute-card {
+        gap: 6px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .absolute-card .text-container h5 {
+        font-size: 8px;
+    }
+    .absolute-card .text-container p,
+    .nacs-wrapper .nav-item p {
+        font-size: 5px;
+    }
+
+    .absolute-card .icon-wrapper {
+        width: 12px;
+        height: 12px;
+    }
+
+    .absolute-card .icon-wrapper svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    .mobile-view-container footer {
+        bottom: -30px;
+    }
+
+    .mobile-view-container .nacs-wrapper {
+        padding: 5px;
+        transform: translateX(-15px);
+    }
+
+    .mobile-view-container .nav-item {
+        gap: 5px;
+    }
+
+    .mobile-view-container .nav-item div {
+        width: 15px;
+        height: 15px;
+    }
 }

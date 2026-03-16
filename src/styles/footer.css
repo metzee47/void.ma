@@ -71,6 +71,7 @@
 
     gap: max(10px, .7vw);
     flex-wrap: wrap;
+    text-align: center;
 }
 
 

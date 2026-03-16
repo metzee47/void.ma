@@ -7,8 +7,13 @@
 }
 
 
-.service-section h1 {
+.service-section > h1 {
     color: #000;
+    text-align: center;
+}
+
+.service-section > p {
+    text-align: center;
 }
 
 .service-items {

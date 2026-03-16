@@ -9,6 +9,11 @@
 
 .advice-section > p {
     color: #F0FDF4;
+    text-align: center;
+}
+
+.advice-section > h1 {
+    text-align: center;
 }
 
 
@@ -34,7 +39,10 @@
 .advice-item p {
     color: #F0FDF4;
     font-size: max(10px, 0.625vw);
+    text-align: center;
 }
+
+
 
 .advice-item .icon-wrapper {
     background-color: rgba(255, 255, 255, 0.2);

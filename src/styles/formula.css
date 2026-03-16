@@ -20,6 +20,11 @@
 
 .formula-section > main > h1 {
     color: var(--black);
+    text-align: center;
+}
+
+.formula-section > main > p {
+    text-align: center;
 }
 
 

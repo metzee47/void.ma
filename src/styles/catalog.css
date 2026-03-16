@@ -8,6 +8,15 @@
 
 }
 
+.catalog-section > h1 {
+    color: var(--black);
+    text-align: center;
+}
+
+.catalog-section > p {
+    text-align: center;
+}
+
 .catalog-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

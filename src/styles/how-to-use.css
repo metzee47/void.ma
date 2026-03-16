@@ -7,8 +7,13 @@
     gap: max(15px, 1vw);
 }
 
-.how-to-use-section h1 {
+.how-to-use-section > h1 {
     color: var(--black);
+    text-align: center;
+}
+
+.how-to-use-section > p {
+    text-align: center;
 }
 
 
