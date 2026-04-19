@@ -39,7 +39,7 @@ export const Footer = () => {
                     <div className="legal-links">
                         <h6>Contact & Légal</h6>
                         <div className="legal-links">
-                            <a href="#">games@metzee.com</a>
+                            <a href="#">contact@demo.com</a>
                             <a href="#">Mentions légales</a>
                             <a href="#">Politique de confidentialité</a>
                             <a href="#">Protection des données</a>
@@ -51,12 +51,12 @@ export const Footer = () => {
 
             <div className="bottom-part">
                 <div className="first-part">
-                    <p>© 2025 Youcanwin. Tous droits réservés.</p>
-                    <p>Un service de <a href="https://agency.africa" target="_blank" rel="noopener noreferrer">Agency.Africa</a> games.agency-africa</p>
+                    <p>© 2025 Projet fictif. Réalisé par Metzee pour démonstration.</p>
+                    <p>Projet fictif réalisé dans le cadre d’un entretien technique</p>
                 </div>
                 <div className="last-part solution">
                     <LuShieldCheck />
-                    <p>Site conforme CNDP Maroc</p>
+                    <p>Site démo, non destiné à un usage commercial</p>
                 </div>
             </div>
         </footer>

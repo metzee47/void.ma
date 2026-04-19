@@ -1,19 +1,19 @@
-import { IoMdTrophy } from "react-icons/io"
+import { FaAppStoreIos } from "react-icons/fa"
 
 const Logo = ({renderGamesText = true}) => (
     <div className="logo-wrapper">
         <div className="icon-wrapper">
-            <IoMdTrophy />
+            <FaAppStoreIos />
         </div>
         <div className="you-can-win">
-            <span>You</span>
-            <span>can</span>
-            <span>win</span>
+            <span>Demo</span>
+            <span>App</span>
+            <span>Void</span>
         </div>
         {
             renderGamesText && (
                 <div className="games-text">
-                    <span>Games</span>
+                    <span>Test</span>
                 </div>
             )
         }
